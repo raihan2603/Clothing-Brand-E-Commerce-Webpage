@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elite Shop</title>
+
+    <link rel="stylesheet" href="./bootstrap.css" />
+    <!-- bootstrap icon cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <nav
+        class="navbar shadow-sm sticky-top navbar-expand-sm bg-light pe-3 ps-3"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="navbar-brand"
+            ><img src="./assets/logo.png" alt=""
+          /></a>
+          <div
+            class="navbar navbar-collapse d-flex justify-content-center"
+            id="collapsibleNavbar"
+          >
+            <ul class="navbar-nav">
+              <li class="navbar-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="navbar-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Shop</a
+                >
+                <ul class="dropdown-menu p-3 bg-dark">
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Shop</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Shop List</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Products</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Curt</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Shipping Method</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="dropdown-item text-white p-2"
+                      >Payment Method</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="navbar-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Pages</a
+                >
+                <ul class="dropdown-menu p-3 bg-dark">
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Login</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Sign Up</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Forget Password</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="dropdown-item text-white p-2"
+                      >Dashboard</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="navbar-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  role="button"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  >Menu</a
+                >
+                <ul class="dropdown-menu p-3 bg-dark">
+                  <li class="nav-item"><h5 class="dropdown-header">Men</h5></li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Jeckets & Coats</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Shoes</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >T-shirts</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Shirts</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="dropdown-item text-white p-2"
+                      >Dashboard</a
+                    >
+                  </li>
+
+                  <li class="nav-item">
+                    <h5 class="dropdown-header">Women</h5>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Jeckets & Coats</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Shoes</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >T-shirts</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="#"
+                      class="dropdown-item border-bottom text-white p-2"
+                      >Shirts</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="dropdown-item text-white p-2"
+                      >Dashboard</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-danger">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <form class="ms-auto">
+            <button class="btn btn-dark rounded-circle" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- using carousel for sliding two hero-section -->
+      <div id="hero-section" class="carousel slide" data-bs-ride="carousel">
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- Hero-section1 -->
+            <section class="hero-section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="hero-texts">
+                      <h5>For Men,s</h5>
+                      <h1>High Quality Converse</h1>
+                      <h5>for only $59.00</h5>
+                      <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Autem nihil quidem animi amet, veritatis eligendi
+                        expedita nam
+                      </p>
+                      <button
+                        class="btn custom-btn rounded-pill text-white mt-3"
+                      >
+                        Shop Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="images mt-5">
+                      <img src="./assets/hero-img.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <!-- Hero-section2 -->
+            <section class="hero-section">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="hero-texts">
+                      <h5>For Wonmen,s</h5>
+                      <h1>High Quality Bag</h1>
+                      <h5>for only $37.00</h5>
+                      <p class="mt-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Autem nihil quidem animi amet, veritatis eligendi
+                        expedita nam
+                      </p>
+                      <button
+                        class="btn custom-btn rounded-pill text-white mt-3"
+                      >
+                        Shop Now
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="images mt-5">
+                      <img src="./assets/bag.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero-section"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon bg-danger"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero-section"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon bg-danger"></span>
+        </button>
+      </div>
+
+      <!-- top-categories section -->
+      <section class="top-categories">
+        <div class="container">
+          <h2 class="text-center">Top Categories</h2>
+          <div class="row">
+            <!-- Categories 1 -->
+            <div class="col-lg-4">
+              <div class="card mt-3">
+                <div class="hover-zoom-img">
+                  <img
+                    class="card-img-top img-fluid w-100 img-grow"
+                    src="./assets/product-big-1.jpg"
+                    alt="Card image"
+                  />
+                </div>
+
+                <div class="card-body">
+                  <ul class="d-flex pl-0 list-unstyled categories-list">
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-1.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-2.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-3.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <div class="card-text d-flex justify-content-between">
+                    <h4>Clothing</h4>
+                    <button class="btn border rounded-pill">VIEW MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 2 -->
+            <div class="col-lg-4">
+              <div class="card mt-3">
+                <div class="hover-zoom-img">
+                  <img
+                    class="card-img-top img-fluid w-100 img-grow"
+                    src="./assets/product-big-3.jpg"
+                    alt="Card image"
+                  />
+                </div>
+
+                <div class="card-body">
+                  <ul class="d-flex pl-0 list-unstyled categories-list">
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-7.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-8.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-9.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <div class="card-text d-flex justify-content-between">
+                    <h4>Accessories</h4>
+                    <button class="btn border rounded-pill">VIEW MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Categories 3 -->
+            <div class="col-lg-4">
+              <div class="card mt-3">
+                <div class="hover-zoom-img">
+                  <img
+                    class="card-img-top img-fluid w-100 img-grow"
+                    src="./assets/product-big-2.jpg"
+                    alt="Card image"
+                  />
+                </div>
+
+                <div class="card-body">
+                  <ul class="d-flex pl-0 list-unstyled categories-list">
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-4.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-5.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                    <li class="border">
+                      <a href="#"
+                        ><img
+                          class="img-grow"
+                          src="./assets/product-sm-6.jpg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <div class="card-text d-flex justify-content-between">
+                    <h4>Shoes</h4>
+                    <button class="btn border rounded-pill">VIEW MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- discount-section -->
+      <section class="discount_section">
+        <div class="col-12">
+          <div class="discount-image bg-dark">
+            <img
+              class="img-fluid opacity-50"
+              src="./assets/season-sale.jpg"
+              alt=""
+            />
+          </div>
+          <div class="discount-content text-white">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1>End of Season Sale</h1>
+                <p>
+                  Take 25% off all sweaters and knits. Discount applied at
+                  checkout.
+                </p>
+                <button class="btn bg-white rounded-pill">SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top-Collections -->
+      <section class="top-collections">
+        <div class="container">
+          <h1 class="text-center mb-5">Top Collection</h1>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="front-image"
+                      src="./assets/product-5.jpg"
+                      alt=""
+                    />
+                    <img class="rare-img" src="./assets/product-4.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Sneaky Leather Sneakers <br />$320.79
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="front-image"
+                      src="./assets/product-8.jpg"
+                      alt=""
+                    />
+                    <img class="rare-img" src="./assets/product-7.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Sneaky Leather Sneakers <br />$320.79
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="front-image"
+                      src="./assets/product-2.jpg"
+                      alt=""
+                    />
+                    <img class="rare-img" src="./assets/product-3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Sneaky Leather Sneakers <br />$320.79
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="card">
+                <div class="product">
+                  <div class="product-img">
+                    <img
+                      class="front-image"
+                      src="./assets/product-5.jpg"
+                      alt=""
+                    />
+                    <img class="rare-img" src="./assets/product-6.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Sneaky Leather Sneakers <br />$320.79
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Deal Of The Day -->
+      <section class="dealOf-day">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="hero-texts">
+                  <h1 class="fw-Semibold">Deal of the day</h1>
+                  <h5 class="fw-Semibold">Get at discounted price!</h5>
+                  <h6 class="mt-5 fw-Semibold">The countdown is finished!</h6>
+                   <button class="btn custom-btn rounded-pill mt-5">Shop Now</button>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="images mt-5 ps-5 ms-5">
+                  <img src="./assets/dealOfTheDayImg.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+
+      <!-- instagram-section -->
+      <section class="instagram-section">
+        <div class="container-fluid">
+          <div class="heading-text text-center mb-5">
+            <h2>Follow Us On Instagram</h2>
+            <h6>@ Occaecat Cupidatat</h6>
+          </div>
+          <div class="row">
+            <!-- image1 -->
+            <div class="col-lg-2 col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <img src="./assets/item-1.png" alt="">
+
+                <!-- adding effect on image -->
+                <div class="caption d-flex gap-5">
+                  <i class="bi bi-heart text-white">40</i>
+                  <i class="bi bi-chat-right-heart text-white">24</i>
+                </div>
+              </div>
+            </div>
+
+            <!-- image2 -->
+            <div class="col-lg-2 col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <img src="./assets/item-2.png" alt="">
+
+                <!-- adding effect on image -->
+                <div class="caption d-flex gap-5">
+                  <i class="bi bi-heart text-white">40</i>
+                  <i class="bi bi-chat-right-heart text-white">24</i>
+                </div>
+              </div>
+            </div>
+
+            <!-- image3 -->
+            <div class="col-lg-2 col-md-3 col-sm-4">
+              <div class="img-wrapper">
+                <img src="./assets/item-3.png" alt="">
+
+                <!-- adding effect on image -->
+                <div class="caption d-flex gap-5">
+                  <i class="bi bi-heart text-white">40</i>
+                  <i class="bi bi-chat-right-heart text-white">24</i>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- image4 -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 px-0 mb-4">
+              <div class="img-wrapper">
+                <img src="./assets/item-4.png" alt="">
+
+                <!-- adding effect on image -->
+                <div class="caption d-flex gap-5">
+                  <i class="bi bi-heart text-white">40</i>
+                  <i class="bi bi-chat-right-heart text-white">24</i>
+                </div>
+              </div>
+            </div>
+
+            <!-- image5 -->
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 px-0 mb-4">
+              <div class="img-wrapper">
+                <img class="img-fluid" src="./assets/item-5.png" alt="">
+
+                <!-- adding effect on image -->
+                <div class="caption d-flex gap-5">
+                  <i class="bi bi-heart text-white">40</i>
+                  <i class="bi bi-chat-right-heart text-white">24</i>
+                </div>
+              </div>
+            </div>
+
+             <!-- image6 -->
+             <div class="col-lg-2 col-md-3 col-sm-4 col-6 px-0 mb-4">
+              <div class="img-wrapper">
+                <img src="./assets/item-6.png" alt="">
+
+                <!-- adding effect on image -->
+                <div class="caption d-flex gap-2">
+                  <i class="bi bi-heart text-white">40</i>
+                  <i class="bi bi-chat-right-heart text-white">24</i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+
+
+      <!-- service section -->
+      <section class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="shipping d-flex p-3">
+                <i class="bi bi-truck text-dark mt-2 fs-1"></i>
+                <div class="texts ms-3">
+                  <h4 class="fw-Semibold">Free Shipping</h4>
+                  <p>Free shipping on oder over $70</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="shipping d-flex p-3">
+                <i class="bi bi-file-lock mt-2 fs-1"></i>
+                <div class="texts ms-3">
+                  <h4 class="fw-Semibold">Secure Payment</h4>
+                  <p>We ensure secure payment with PEV</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="shipping d-flex p-3">
+                <i class="bi bi-clock mt-2 fs-1"></i>
+                <div class="texts ms-3">
+                  <h4 class="fw-Semibold">Support 24/7</h4>
+                  <p>Contact us 24 hours a day, 7 days a week</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="shipping d-flex p-3">
+                <i class="bi bi-arrow-counterclockwise mt-2 fs-1"></i>
+                <div class="texts ms-3">
+                  <h5 class="fw-Semibold">30 Days Return</h5>
+                  <p>Simply return it within 30 days for an exchange.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NewsLetter -->
+      <section class="NewsLetter">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="text-center mb-3">Our Newsletter</h1>
+              <p class="text-center">Subscribe to our Newsletter to receive early discount offers</p>
+              <div class="form text-center">
+                <input type="email" placeholder="Enter Your Email">
+                <button class="btn custom-btn rounded-pill ms-3">SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Menu -->
+      <section class="footer-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h4 class="mb-3">Contact</h4>
+              <p>20464 Hirthe Curve Suite, Emardton,</p>
+              <p>CT 12471-4107</p>
+              <p>+5(305) 785-0437</p>
+              <p>info@example.com</p>
+                <ul>
+                  <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                  <li><a href="#"><i class="bi bi-messenger"></i></li>
+                  <li><a href="#"><i class="bi bi-github"></i></a></li>
+                  <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                </ul>
+            </div>
+              <div class="col-lg-3">
+                <h4 class="mb-3">Category</h4>
+                <p>Men</p>
+                <p>Women</p>
+                <p>Kids</p>
+                <p>Accessories</p>
+                <p>Shoe</p>
+              </div>
+
+              
+                <div class="col-lg-3">
+                  <h4 class="mb-3">Useful Link</h4>
+                  <p>News & Tips</p>
+                  <p>About Us</p>
+                  <p>Support</p>
+                  <p>Our Shop</p>
+                  <p>Contact Us</p>
+                </div>
+
+                
+                  <div class="col-lg-3">
+                    <h4 class="mb-3">Our Policies</h4>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                    <p>Cookie Policy</p>
+                    <p>Terms of Sale</p>
+                    <p>Free Shipping & Returns</p>
+                  </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <script src="./bootstrap.bundle.js"></script>
+  </body>
+</html>

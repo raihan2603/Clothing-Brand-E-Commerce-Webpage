@@ -1,0 +1,199 @@
+body{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* hero-section */
+.hero-section{
+    padding:100px 170px;
+    background-color:#F2F3F5;
+    .hero-texts{
+        margin-top:60px;
+        h5{
+            font-size:28px;
+        }
+        h1{
+            font-size:50px;
+        }
+        p{
+            font-size:15px;
+        }
+        .custom-btn{
+            padding:15px 40px;
+            background-color:#FF4135;
+            font-size:20px;
+        }
+    }
+}
+
+/* top Categories */
+.top-categories{
+    padding:100px 200px;
+
+    .card-body{
+        img{
+        height:100%;
+        width:100%;
+        }
+        
+    }
+}
+
+
+/* discount-section */
+.discount_section{
+    position: relative;
+    padding:50px 0;
+    .discount-content{
+        text-align:center;
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .btn{
+            padding:15px 40px;
+        }
+    }
+    .discount-image{
+        img{
+            height: 400px;
+            width: 100%;
+            object-fit: cover;
+            opacity:0.8;
+        }
+    }
+}
+
+
+   /* top-collections */
+.top-collections{
+    padding:200px 0;
+
+    .product{
+        position: relative;
+    }
+    .product-img img{
+        width:100%;
+    }
+    .product-img .rare-img{
+        opacity:0;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:-1;
+        transition:opacity 0.4s ease-in;
+    }
+    .product:hover .rare-img{
+        opacity:1;
+        z-index:0;
+    }
+}
+
+/* Deal Of The Day */
+.dealOf-day{
+    padding:100px 0;
+    background-color:#F2F3F5;
+    .hero-texts{
+        margin-top:60px;
+        padding-left:90px;
+        h1{
+            font-size:50px;
+        }
+        h5{
+            font-size:25px;
+        }
+        h6{
+            font-size:22px;
+        }
+        .custom-btn{
+            padding:15px 40px;
+            background-color:#FF4135;
+            font-size:20px;
+            color:white;
+        }
+    }
+}
+
+/* Instagram section */
+.instagram-section{
+    padding:100px 0;
+    margin-bottom:200px;
+    .img-wrapper{
+        position:absolute;
+    }
+    .img-wrapper img{
+        width:100%;
+        height:230px;
+    }
+    .img-wrapper .caption{
+        position:absolute;
+        background-color:black;
+        width:100%;
+        height:100%;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        opacity:0;
+        transition:all 0.5s;
+    }
+    .img-wrapper:hover .caption{
+        opacity:1;
+        background-color:rgba(0,0,0,0.5);
+    }
+}
+
+   /* Services */
+.services{
+    padding:50px 180px;
+}
+
+.NewsLetter{
+    padding:100px 0;
+    background-color:#F2F3F5;
+    .custom-btn{
+        padding:12px 40px;
+        background-color:#FF4135;
+        font-size:20px;
+        color:white;
+    }
+    .form input{
+        padding:15px 30px;
+        border:none;
+        width:30%;
+    }
+}
+
+
+    /* Footer Menu  */
+    .footer-menu{
+        padding:100px 0;
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            overflow: hidden;
+        }
+        ul li{
+            display:inline;
+            font-size:25px;
+            margin-right:20px;
+            a{
+                color:black;
+            }
+        }
+    }
+
+
+/* transition-animation */
+.img-grow {
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .img-grow:hover {
+    transform: scale(1.1);
+  }
